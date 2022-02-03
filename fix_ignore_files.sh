@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 find . -name ".gitignore" -print0 | while read -d $'\0' file
 do
